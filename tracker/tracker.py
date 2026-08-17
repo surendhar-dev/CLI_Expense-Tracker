@@ -1,4 +1,4 @@
-from storage import load_data, save_data
+from tracker.storage import load_data, save_data
 
 def add_expense(amount, category, description):
     data = load_data()
